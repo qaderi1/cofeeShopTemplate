@@ -18,6 +18,16 @@ body {
   height: 100%;
   margin: auto;
 }
+
+.overlay {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
 /* header */
 
 ul,
@@ -31,14 +41,7 @@ header {
   background-size: 100% 100%;
   position: relative;
 }
-header .header-overlay {
-  position: absolute;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.6);
-}
+
 header nav .logo {
   float: right;
   width: 50%;
@@ -107,4 +110,29 @@ header .header-desc {
 }
 #our-story .story-img img {
   width: 100%;
+}
+
+/* sweet */
+
+#sweet {
+  background-image: url("../images/backtwo.jpg");
+  height: 300px;
+  padding: 50px;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+#sweet .sweet-desk {
+  color: white;
+  text-align: center;
+}
+#sweet h1 {
+  margin-top: 140px;
+  font-size: 40px;
+}
+
+#sweet p {
+  width: 650px;
+  font-size: 20px;
+  margin: auto;
 }
