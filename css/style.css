@@ -29,6 +29,15 @@ header {
   background-image: url("../images/bakcground-header.jpg");
   height: 100vh;
   background-size: 100% 100%;
+  position: relative;
+}
+header .header-overlay {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 header nav .logo {
   float: right;
@@ -58,4 +67,44 @@ header nav ul li {
   display: inline-block;
   line-height: 4;
   margin: 0 5px 0 5px;
+}
+
+header .header-desc {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 40%;
+  text-align: center;
+  color: #fff;
+}
+
+/* our story */
+
+#our-story {
+  width: 100%;
+  height: 410px;
+  padding: 100px 0px;
+}
+#our-story .story-desk {
+  text-align: center;
+
+  width: 50%;
+  float: right;
+}
+#our-story .story-desk h1 {
+  font-size: 35px;
+  margin-top: 80px;
+}
+#our-story .story-desk p {
+  width: 420px;
+  margin: auto;
+  line-height: 30px;
+}
+#our-story .story-img {
+  width: 50%;
+
+  float: right;
+}
+#our-story .story-img img {
+  width: 100%;
 }
