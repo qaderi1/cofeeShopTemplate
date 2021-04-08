@@ -136,3 +136,75 @@ header .header-desc {
   font-size: 20px;
   margin: auto;
 }
+
+#menu {
+  width: 100%;
+  text-align: center;
+  height: 500px;
+  padding: 100px 0px;
+}
+#menu .menu-desk {
+  width: 50%;
+  float: right;
+  margin: auto;
+}
+#menu .menu-desk h1 {
+  font-size: 30px;
+  margin-top: 100px;
+}
+#menu .menu-desk p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+#menu .menu-desk a {
+  color: black;
+  text-decoration: none;
+  border-bottom: 2px solid red;
+}
+
+#menu .menu-img {
+  width: 50%;
+  float: right;
+}
+
+#menu .menu-img ul {
+  width: 100%;
+}
+
+#menu .menu-img li {
+  width: 50%;
+  float: right;
+  text-align: left;
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+#menu .menu-img li img {
+  width: 95%;
+  height: 200px;
+}
+
+/* hot section  */
+#hot {
+  background-image: url("../images/hot.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 100px;
+  height: 200px;
+  position: relative;
+}
+#hot .hot-title {
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin-top: 140px;
+}
+
+#hot .hot-title h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+#hot .hot-title p {
+  font-size: 20px;
+}
