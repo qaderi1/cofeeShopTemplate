@@ -190,7 +190,7 @@ header .header-desc {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding: 100px;
+  padding: 100px 0px;
   height: 200px;
   position: relative;
 }
