@@ -1,210 +1,357 @@
 @font-face {
-  font-family: "Vazir";
-  src: url("../fonts/vazir.eot") format("eot"),
-    url("../fonts/vazir.ttf") format("trutype"),
-    url("../fonts/vazir.woff") format("woff"),
-    url("../fonts/vazir.woff2") format("woff2");
+    font-family: "Vazir";
+    src: url("../fonts/vazir.eot") format("eot"), url("../fonts/vazir.ttf") format("trutype"), url("../fonts/vazir.woff") format("woff"), url("../fonts/vazir.woff2") format("woff2");
 }
 
 body {
-  font-family: "Vazir";
-  direction: rtl;
-  margin: 0;
-  padding: 0;
+    font-family: "Vazir";
+    direction: rtl;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-  width: 1100px;
-  height: 100%;
-  margin: auto;
+    width: 1100px;
+    height: 100%;
+    margin: auto;
 }
 
 .overlay {
-  position: absolute;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
 }
+
+input {
+    font-family: "Vazir";
+}
+
 
 /* header */
 
 ul,
 li {
-  padding: 0px;
-  margin: 0px;
+    padding: 0px;
+    margin: 0px;
 }
+
 header {
-  background-image: url("../images/bakcground-header.jpg");
-  height: 100vh;
-  background-size: 100% 100%;
-  position: relative;
+    background-image: url("../images/bakcground-header.jpg");
+    height: 100vh;
+    background-size: 100% 100%;
+    position: relative;
 }
 
 header nav .logo {
-  float: right;
-  width: 50%;
-  height: 100%;
-  text-align: left;
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: left;
 }
+
 header nav .logo img {
-  margin-top: 7px;
-  width: 60px;
+    margin-top: 7px;
+    width: 60px;
 }
+
 header nav {
-  background-color: rgba(0, 0, 0, 0.7);
-  height: 60px;
-  width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 60px;
+    width: 100%;
 }
+
 header nav ul {
-  float: right;
-  width: 50%;
-  height: 100%;
+    float: right;
+    width: 50%;
+    height: 100%;
 }
+
 header nav ul a {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
+
 header nav ul li {
-  display: inline-block;
-  line-height: 4;
-  margin: 0 5px 0 5px;
+    display: inline-block;
+    line-height: 4;
+    margin: 0 5px 0 5px;
 }
 
 header .header-desc {
-  position: absolute;
-  right: 0;
-  left: 0;
-  top: 40%;
-  text-align: center;
-  color: #fff;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 40%;
+    text-align: center;
+    color: #fff;
 }
+
 
 /* our story */
 
 #our-story {
-  width: 100%;
-  height: 410px;
-  padding: 100px 0px;
+    width: 100%;
+    height: 410px;
+    padding: 100px 0px;
 }
+
 #our-story .story-desk {
-  text-align: center;
-
-  width: 50%;
-  float: right;
+    text-align: center;
+    width: 50%;
+    float: right;
 }
+
 #our-story .story-desk h1 {
-  font-size: 35px;
-  margin-top: 80px;
+    font-size: 35px;
+    margin-top: 80px;
 }
-#our-story .story-desk p {
-  width: 420px;
-  margin: auto;
-  line-height: 30px;
-}
-#our-story .story-img {
-  width: 50%;
 
-  float: right;
+#our-story .story-desk p {
+    width: 420px;
+    margin: auto;
+    line-height: 30px;
 }
+
+#our-story .story-img {
+    width: 50%;
+    float: right;
+}
+
 #our-story .story-img img {
-  width: 100%;
+    width: 100%;
 }
+
 
 /* sweet */
 
 #sweet {
-  background-image: url("../images/backtwo.jpg");
-  height: 300px;
-  padding: 50px;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
+    background-image: url("../images/backtwo.jpg");
+    height: 300px;
+    padding: 50px;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
 }
+
 #sweet .sweet-desk {
-  color: white;
-  text-align: center;
+    color: white;
+    text-align: center;
 }
+
 #sweet h1 {
-  margin-top: 140px;
-  font-size: 40px;
+    margin-top: 100px;
+    font-size: 40px;
 }
 
 #sweet p {
-  width: 650px;
-  font-size: 20px;
-  margin: auto;
+    width: 650px;
+    font-size: 20px;
+    margin: auto;
 }
 
 #menu {
-  width: 100%;
-  text-align: center;
-  height: 500px;
-  padding: 100px 0px;
+    width: 100%;
+    text-align: center;
+    height: 500px;
+    padding: 100px 0px;
 }
+
 #menu .menu-desk {
-  width: 50%;
-  float: right;
-  margin: auto;
+    width: 50%;
+    float: right;
+    margin: auto;
 }
+
 #menu .menu-desk h1 {
-  font-size: 30px;
-  margin-top: 100px;
+    font-size: 30px;
+    margin-top: 100px;
 }
+
 #menu .menu-desk p {
-  font-size: 18px;
-  margin-bottom: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
+
 #menu .menu-desk a {
-  color: black;
-  text-decoration: none;
-  border-bottom: 2px solid red;
+    color: black;
+    text-decoration: none;
+    border-bottom: 2px solid red;
 }
 
 #menu .menu-img {
-  width: 50%;
-  float: right;
+    width: 50%;
+    float: right;
 }
 
 #menu .menu-img ul {
-  width: 100%;
+    width: 100%;
 }
 
 #menu .menu-img li {
-  width: 50%;
-  float: right;
-  text-align: left;
-  list-style: none;
-  margin-bottom: 5px;
+    width: 50%;
+    float: right;
+    text-align: left;
+    list-style: none;
+    margin-bottom: 5px;
 }
 
 #menu .menu-img li img {
-  width: 95%;
-  height: 200px;
+    width: 95%;
+    height: 200px;
 }
 
+
 /* hot section  */
+
 #hot {
-  background-image: url("../images/hot.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  padding: 100px 0px;
-  height: 200px;
-  position: relative;
+    background-image: url("../images/hot.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 100px 0px;
+    height: 200px;
+    position: relative;
 }
+
 #hot .hot-title {
-  width: 100%;
-  text-align: center;
-  color: white;
-  margin-top: 140px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 140px;
 }
 
 #hot .hot-title h1 {
-  font-size: 50px;
-  margin-bottom: 20px;
+    font-size: 50px;
+    margin-bottom: 20px;
 }
+
 #hot .hot-title p {
-  font-size: 20px;
+    font-size: 20px;
+}
+
+
+/* delight */
+
+#delight {
+    width: 100%;
+    padding: 100px 0px;
+}
+
+#delight .delight {
+    width: 100%;
+    overflow: auto;
+}
+
+#delight .delight .delight-content {
+    text-align: center;
+    width: 55%;
+    float: right;
+}
+
+#delight .delight .delight-content h1 {
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+#delight .delight .delight-content p {
+    font-size: 17px;
+}
+
+#delight .delight .delight-img {
+    width: 45%;
+    float: right;
+    text-align: left;
+}
+
+#delight .delight .delight-img img {
+    width: 200px;
+    height: 350px;
+}
+
+#delight .delight .delight-img img:last-child {
+    margin-right: 30px;
+}
+
+
+/* footer */
+
+#footer {
+    width: 100%;
+    background: #141414;
+    padding-top: 60px;
+    overflow: auto;
+}
+
+#footer .footer {
+    overflow: auto;
+    width: 100%;
+}
+
+#footer .footer .about-footer {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+#footer .footer .about-footer h2 {
+    margin-bottom: 5px;
+}
+
+#footer .footer .about-footer p {
+    width: 600px;
+    margin: auto;
+    line-height: 30px;
+}
+
+#footer .contact-us {
+    color: white;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#footer .contact-us .news-letter {
+    float: right;
+    width: 50%;
+}
+
+#footer .contact-us .news-letter input {
+    margin-top: 5px;
+}
+
+#footer .contact-us .social {
+    float: right;
+    width: 50%;
+}
+
+#footer .contact-us .social ul {
+    width: 100%;
+}
+
+#footer .contact-us .social ul li {
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+#footer .contact-us .social ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer .contact-us .social ul li a i {
+    font-size: 25px;
+}
+
+.copy-right {
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+    text-align: center;
+    height: 200px;
+    padding-top: 30px;
+    margin-top: 20px;
+    color: white;
 }
